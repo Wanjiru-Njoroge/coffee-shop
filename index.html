@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffe Shop</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+ 
+  <header class="header">
+    <h2 class="logo">Sugarnova</h2>
+
+    <nav class="navbar">
+      <a href="#home"> home</a>
+      <a href="#about"> about</a>
+      <a href="#menu">menu</a>
+      <a href="#product">product</a>
+      <a href="#contact">contact</a>
+      <a href="#blog">blog</a>
+    </nav>
+    <div class="icons">
+      <div class="fa-solid fa-magnifying-glass" id="search"></div>
+      <div class="fa-solid fa-cart-shopping" id="cart"></div>
+      <div class="fa-solid fa-bars" id="sub"></div>
+    </div>
+    <div class="search-form">
+      <input type="search" id="search-box" placeholder="search" />
+      <label for="search-box" class="fa-solid fa-magnifying-glass"></label>
+    </div>
+    <div class="cart-item-container">
+      <div class="cart-item">
+        <span class="item-name">Item Name</span>
+        
+      </div>
+      <div class="cart-total">
+        Total: Ksh <span id="cart-total">0</span>
+      </div>
+      <a href="#" class="btn">checkout now</a>
+    </div>
+    
+  
+  </header>
+  <!--hero section starts-->
+ 
+    <section class="home" id="home">
+      <div class="content">
+        <h3>Where Sweet Dreams Take Flight!</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint repellat
+          dicta sunt delectus accusamus
+        </p>
+        <a href="#" class="btn">get yours now</a>
+      </div>
+    </section>
+ 
+  <!--hero section ends-->
+   <!--about section starts-->
+   <section class="about" id="about">
+    <h1 class="heading"><span>about</span> us</h1>
+    <div class="row">
+      <div class="image">
+        <img src="./image/coffee.jpg" alt="" />
+      </div>
+      <div class="content">
+        <h3>What makes us special</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam
+          pariatur fugiat libero at doloremque rerum voluptate iure fugit illo
+          accusantium eius maxime iusto, neque voluptas facere obcaecati
+          repellat nam. Sed? Lorem ipsum dolor sit amet consectetur,
+          adipisicing elit. Odio exercitationem incidunt eaque eveniet quos
+          distinctio. Facere magni hic vel id eius repellendus alias. Sapiente
+          itaque vero aut dolore, voluptatibus labore!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Voluptatibus, quisquam animi accusamus asperiores ullam laborum,
+          omnis quod voluptatem, sapiente doloremque molestias optio? Animi
+          voluptate, nisi incidunt optio cumque magni unde!
+        </p>
+        <a href="#" class="btn">learn more</a>
+      </div>
+    </div>
+
+  </section>
+  <!--about section ends-->
+  <!--menu section starts-->
+  <!--menu section starts-->
+<section class="menu" id="menu" >
+  <h1 class="heading">our <span> menu</span></h1>
+  <div class="box-container">
+      <div class="box" data-name="cappuccino" data-price="150">
+          <img src="/image/cappuccino.jpg" alt="" >
+          <h3>cappuccino</h3>
+          <div class="price">Ksh 150 <span>Ksh 200</span></div>
+          <a href="#" class="btn add-to-cart"> add to cart</a>
+      </div>
+      <div class="box" data-name="expresso" data-price="150">
+          <img src="/image/expresso.jpg" alt="">
+          <h3>expresso</h3>
+          <div class="price">Ksh 150 <span>Ksh 200</span></div>
+          <a href="#" class="btn add-to-cart"> add to cart</a>
+      </div>
+      <div class="box" data-name="flat white" data-price="150">
+          <img src="/image/flat white.jpg" alt="">
+          <h3>flat white</h3>
+          <div class="price">Ksh 150 <span>Ksh 200 </span></div>
+          <a href="#" class="btn add-to-cart"> add to cart</a>
+      </div>
+      <div class="box" data-name="iced coffee" data-price="150">
+          <img src="/image/iced coffee.jpg" alt="">
+          <h3>iced coffee</h3>
+          <div class="price">Ksh 150 <span>Ksh 200</span></div>
+          <a href="#" class="btn add-to-cart"> add to cart</a>
+      </div>
+      <div class="box" data-name="irish coffee" data-price="150">
+          <img src="/image/irish coffee.jpg" alt="">
+          <h3>irish coffee</h3>
+          <div class="price">Ksh 150 <span>Ksh 200</span></div>
+          <a href="#" class="btn add-to-cart"> add to cart</a>
+      </div>
+      <div class="box" data-name="latte"data-price="150">
+          <img src="/image/latte.jpg" alt="">
+          <h3>latte</h3>
+          <div class="price">Ksh 150 <span>Ksh 200</span></div>
+          <a href="#" class="btn  add-to-cart"> add to cart</a>
+      </div>
+  </div>
+</section>
+<!--menu section ends-->
+
+<!--menu section ends-->
+<!--product section starts-->
+<section class="product" id="product">
+  <h1 class="heading">products</h1>
+  <div class="box-container">
+   
+      <img src="./image/product1.jpg" alt="" >
+      <img src="./image/product2.jpg" alt="" >
+      <img src="./image/product3.jpg" alt="" >
+      <img src="./image/product4.jpg" alt="" >
+   
+  </div>
+</section>
+
+<!--product section ends-->
+<!--gallery section starts-->
+<section class="gallery" id="gallery">
+  <h1 class="heading">our gallery</h1>
+  <div class="box-container">
+   
+      <img src="./image/pic1.jpg" alt="" >
+      <img src="./image/pic2.jpg" alt="" >
+      <img src="./image/pic3.jpg" alt="" >
+      <img src="./image/pic4.jpg" alt="" >
+      <img src="./image/pic5.jpg" alt="" >
+      <img src="./image/pic6.jpg" alt="" >
+   
+  </div>
+</section>
+<!--gallary section ends-->
+<section class="contact" id="contact">
+  <h1 class="heading"> <span>contact </span> us</h1>
+  <div class="row">
+      <iframe  class="map"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8523351620447!2d36.70920907436097!3d-1.260825735597545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1977bcd447e1%3A0xa40735542ccc713f!2sUthiru%20cooperation!5e0!3m2!1sen!2ske!4v1704210517255!5m2!1sen!2ske" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <form action="">
+          <h3>get in touch</h3>
+          <div class="inputbox">
+              <span class="fa-solid fa-user"></span>
+              <input type="text" placeholder="name">
+          </div>
+          <div class="inputbox">
+              <span class="fa-solid fa-envelope"></span>
+              <input type="email" placeholder="email">
+          </div><div class="inputbox">
+              <span class="fa-solid fa-phone"></span>
+              <input type="number" placeholder="number">
+          </div>
+          <input type="submit" value="contact us" class="btn">
+      </form>
+  </div>
+</section>
+<!--contact section ends-->
+<!---blog section starts-->
+<section class="blog" id="blog">
+<h1 class="heading">bl<span>og</span></h1>
+<div class="box-contaner">
+  <div class="box">
+    <div class="image">
+      <img src="/image/pic2.jpg" alt="">
+
+    </div>
+    <div class="content">
+      <a href="#" class="title">mouth watering cake</a>
+      <span>by admin /2 jan,2024</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, esse sit tempora exercitationem debitis tempore nesciunt minima aut similique laboriosam? Facere nostrum quibusdam quidem laborum enim magnam similique dolorem nihil.</p>
+      <a href="#" class="btn"> read more</a>
+    </div>
+  </div>
+  <div class="box">
+    <div class="image">
+      <img src="/image/product2.jpg" alt="">
+
+    </div>
+    <div class="content">
+      <a href="#" class="title">mouth watering cake</a>
+      <span>by admin /2 jan, 2024</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, esse sit tempora exercitationem debitis tempore nesciunt minima aut similique laboriosam? Facere nostrum quibusdam quidem laborum enim magnam similique dolorem nihil.</p>
+      <a href="#" class="btn"> read more</a>
+    </div>
+  </div>
+  <div class="box">
+    <div class="image">
+      <img src="/image/pic5.jpg" alt="">
+
+    </div>
+    <div class="content">
+      <a href="#" class="title">mouth watering cake</a>
+      <span>by admin /2 jan, 2024</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, esse sit tempora exercitationem debitis tempore nesciunt minima aut similique laboriosam? Facere nostrum quibusdam quidem laborum enim magnam similique dolorem nihil.</p>
+      <a href="#" class="btn"> read more</a>
+    </div>
+  </div>
+</div>
+
+</section>
+<!--footer section starts-->
+<section class="footer">
+  <div class="socials">
+    <a href="#" class="fab fa-facebook"></a>
+    <a href="#" class="fab fa-tiktok"></a>
+    <a href="#" class="fab fa-instagram-square"></a>
+    <a href="#" class="fab fa-twitter"></a>
+</div>
+
+  <div class="links">
+    <a href="#home"> home</a>
+    <a href="#about"> about</a>
+    <a href="#menu">menu</a>
+    <a href="#contact">contact</a>
+    <a href="#blog">blog</a>
+
+  </div>
+
+</section>
+ <!--footer section ends-->
+ 
+  
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
